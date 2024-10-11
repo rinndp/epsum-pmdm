@@ -1,6 +1,9 @@
 package com.rinndp.first;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -28,9 +31,13 @@ public class SplashScreen extends AppCompatActivity {
             return insets;
         });
 
+        launchMain();
+
         Animation gradientColour = AnimationUtils.loadAnimation(this, R.anim.gradient_colour);
+
         ImageView splashLogo = findViewById(R.id.splashLogo);
         TextView splashAppAnme = findViewById(R.id.splashAppName);
+
         splashLogo.startAnimation(gradientColour);
         splashAppAnme.startAnimation(gradientColour);
 
@@ -41,5 +48,19 @@ public class SplashScreen extends AppCompatActivity {
                 .transition(DrawableTransitionOptions.withCrossFade(1000))
                 .centerCrop()
                 .into(glideBackground);
+    }
+
+
+    public void launchMain () {
+        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                Intent intent = new Intent(SplashScreen.this, MainActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+            }
+        } , 3000);
     }
 }
