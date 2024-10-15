@@ -25,21 +25,16 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_splash_screen);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
 
         launchMain();
 
         Animation gradientColour = AnimationUtils.loadAnimation(this, R.anim.gradient_colour);
 
         ImageView splashLogo = findViewById(R.id.splashLogo);
-        TextView splashAppAnme = findViewById(R.id.splashAppName);
+        TextView splashAppName = findViewById(R.id.splashAppName);
 
         splashLogo.startAnimation(gradientColour);
-        splashAppAnme.startAnimation(gradientColour);
+        splashAppName.startAnimation(gradientColour);
 
         ImageView glideBackground = findViewById(R.id.splashGlideBackground);
 
@@ -56,7 +51,7 @@ public class SplashScreen extends AppCompatActivity {
 
             @Override
             public void run() {
-                Intent intent = new Intent(SplashScreen.this, MainActivity.class);
+                Intent intent = new Intent(SplashScreen.this, Login.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
