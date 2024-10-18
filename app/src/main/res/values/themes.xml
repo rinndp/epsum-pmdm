@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.First" parent="Base.Theme.First" />
+
+    <style name="toastError">
+        <item name="stTextColor">#ffffff</item>
+        <item name="stColorBackground">#E91E63</item>
+        <item name="stIconStart">@drawable/baseline_error_24</item>
+    </style>
 </resources>

@@ -16,6 +16,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.textfield.TextInputLayout;
 
+import io.github.muddz.styleabletoast.StyleableToast;
+
 public class Register extends AppCompatActivity {
 
     @Override
@@ -41,36 +43,28 @@ public class Register extends AppCompatActivity {
                 String userConfirmPassword = String.valueOf(registerConfirmPasswordTIL.getEditText().getText());
 
                 if (!userPassword.equals(userConfirmPassword)) {
-                    Toast toast = Toast.makeText(getApplicationContext(), "Tus contraseñas NO coinciden", Toast.LENGTH_SHORT);
-                    toast.show();
-                } else if (userName.equals(null)) {
-                        Toast toast = Toast.makeText(getApplicationContext(), "El nombre NO puede ser nulo", Toast.LENGTH_SHORT);
-                        toast.show();
-                } else if (surname.equals(null)) {
-                    Toast toast = Toast.makeText(getApplicationContext(), "El apellido NO puede ser nulo", Toast.LENGTH_SHORT);
-                    toast.show();
-
-                } else if (userName.equals(null)) {
-                    Toast toast = Toast.makeText(getApplicationContext(), "El usuario NO puede ser nulo", Toast.LENGTH_SHORT);
-                    toast.show();
-                    
+                    StyleableToast confirmPasswordToast = StyleableToast.makeText(getApplicationContext(), "Las contraseñas NO coinciden", R.style.toastError);
+                    confirmPasswordToast.show();
+                } else if (name.equals("") || surname.equals("") || userName.equals("") || userPassword.equals("")) {
+                    StyleableToast emptyInputsToast = StyleableToast.makeText(getApplicationContext(), "Los campos NO pueden estar vacios", R.style.toastError);
+                    emptyInputsToast.show();
                 } else {
                     SharedPreferences preferences = getSharedPreferences("Usuario", Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor = preferences.edit();
                     editor.putString("name", name);
                     editor.putString("surname", surname);
                     editor.putString("userName", userName);
-                    editor.putString("password", userPassword);
+                    editor.putString("userPassword", userPassword);
 
                     editor.apply();
-                    launchMain();
+                    launchLogin();
 
                 }
             }
         });
     }
-    public void launchMain() {
-        Intent intent = new Intent(Register.this, MainActivity.class);
+    public void launchLogin() {
+        Intent intent = new Intent(Register.this, Login.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);

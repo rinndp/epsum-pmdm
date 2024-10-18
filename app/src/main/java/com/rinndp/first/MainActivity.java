@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
         TextView addedText = findViewById(R.id.addedText);
 
         SharedPreferences preferences = getSharedPreferences("Usuario", Context.MODE_PRIVATE);
-        String name = preferences.getString("name", "anónimo");
-        String surname = preferences.getString("surname", "anónimo");
-        String userName = preferences.getString("userName", "anónimo");
+        String name = preferences.getString("name", "anonimo");
+        String surname = preferences.getString("surname", "anonimo");
+        String userName = preferences.getString("userName", "anonimo");
 
 
         welcomeText.setText("Hola "+name +" "+ surname);
