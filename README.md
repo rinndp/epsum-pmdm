@@ -16,6 +16,10 @@ Por otro lado, si las contraseñas NO coinciden, también aparacerá un Toast
 
 ![image](https://github.com/user-attachments/assets/b84bd9e1-5105-49a6-9278-0198d9989c86)
 
+Aa
+Aaa
+Aaa
+aaa
 
 
 
