@@ -6,8 +6,6 @@
   ![image](https://github.com/user-attachments/assets/72f63574-3112-4289-ba04-5ca183a1b882)
   
   ----------------------------------------------------------------------------------------------------------------
-  \
-  \
   Al darle al botón de "Registrarse" te envía a una nueva actividad en la que te pide ingresar los datos necesario para crear una cuenta de usuario.
   \
   \
