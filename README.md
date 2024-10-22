@@ -4,7 +4,7 @@
    <img src="https://github.com/user-attachments/assets/5de861f2-351d-4cd4-98e2-ca1ce8c36810">
 </p>
 <hr><hr><hr>
-<p align = "center">Ventana de Inicio de Sesión o Registro.</p>
+<h2 align = "center">Ventana de Inicio de Sesión o Registro.</h2>
 <p align = "center">
    <img src="https://github.com/user-attachments/assets/72f63574-3112-4289-ba04-5ca183a1b882">
 </p>  
