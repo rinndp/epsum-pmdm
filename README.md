@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/AQXCj2M_)
-=======
 <html>
   <body>
   <h1>¡Bienvenidos a Hikers! Aplicación en desarrollo</h1>
@@ -52,19 +48,3 @@
   ----------------------------------------------------------------------------------------------------------------
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> master
-=======
-
->>>>>>> 0ec0820ef98f75e811b4a7b01a6b4b2671b96a3f
