@@ -20,6 +20,22 @@ No se admiten CAMPOS nulos, para hacérselo saber al usuario, ponemos en pantall
 Por otro lado, si las contraseñas NO coinciden, también aparacerá un Toast.
 
 
+![image](https://github.com/user-attachments/assets/acf9bd7a-b7e9-48f5-a0fa-a0edf0ce4188)
+
+Al haberse registrado correctamente el usuario, se nos envía de vuelta al área de Inicio de Sesión. Si ponemos una contraseña o usuario INCORRECTO, se nos mostrará un Toast con el error.
+
+
+![image](https://github.com/user-attachments/assets/56f84bb5-25e4-4d10-87fa-beaeed5fffd9)
+
+Finalmente, cuando se introducen los datos correctamente, nos envía a una actividad con el texto mostrado en pantalla.
+
+
+
+
+
+
+
+
 
 
 
