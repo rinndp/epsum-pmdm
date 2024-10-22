@@ -1,15 +1,15 @@
 
 <h1 align = "center">¡Bienvenidos a Hikers! Aplicación en desarrollo</h1>
 <p align = "center">Ventana de Inicio de Sesión o Registro.</p>
-
 <p align = "center">
 <img src="https://github.com/user-attachments/assets/72f63574-3112-4289-ba04-5ca183a1b882">
 </p>  
-----------------------------------------------------------------------------------------------------------------
-<p>Al darle al botón de "Registrarse" te envía a una nueva actividad en la que te pide ingresar los datos necesario para crear una cuenta de usuario.</p>
-  
-![image](https://github.com/user-attachments/assets/74a9125b-7c96-4392-bcb9-aa3efec9d19c)
-  
+<p align = "center">Al darle al botón de "Registrarse" te envía a una nueva actividad en la que te pide ingresar los datos necesario para crear una cuenta de usuario.</p>
+
+<p align = "center">
+<img src="https://github.com/user-attachments/assets/74a9125b-7c96-4392-bcb9-aa3efec9d19c">
+</p> 
+ 
 ----------------------------------------------------------------------------------------------------------------
   
   
