@@ -58,7 +58,6 @@ public class Register extends AppCompatActivity {
 
                     editor.apply();
                     launchLogin();
-
                 }
             }
         });
