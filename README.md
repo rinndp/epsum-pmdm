@@ -1,4 +1,4 @@
-¡Bienvenidos a Hikers! Aplicación en desarrollo --> Educativo
+¡Bienvenidos a Hikers! Aplicación en desarrollo
 
 ![image](https://github.com/user-attachments/assets/72f63574-3112-4289-ba04-5ca183a1b882)
 
