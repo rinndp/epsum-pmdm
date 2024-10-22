@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.First" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.First" parent="Base.Theme.First" />
+
+    <style name="toastError">
+        <item name="stTextColor">#ffffff</item>
+        <item name="stColorBackground">#E91E63</item>
+        <item name="stIconStart">@drawable/baseline_error_24</item>
+    </style>
+</resources>
