@@ -1,4 +1,4 @@
-<h1 style="text-align: center">¡Bienvenidos a Hikers! Aplicación en desarrollo<h1>
+<h1 style="text-align: center">¡Bienvenidos a Hikers! Aplicación en desarrollo</h1>
 ----------------------------------------------------------------------------------------------------------------
 \
 Ventana de Inicio de Sesión o Registro.
