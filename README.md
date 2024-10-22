@@ -1,12 +1,4 @@
 <html>
-  <head>
-    <title>Read.me app</title>
-    <style>
-        p {
-          text-align: center;
-        }
-    </style>
-  </head>
   <body>
    <header>
     <h1>¡Bienvenidos a Hikers! Aplicación en desarrollo</h1>
