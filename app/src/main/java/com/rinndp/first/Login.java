@@ -14,9 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-
 import com.google.android.material.textfield.TextInputLayout;
-
 import io.github.muddz.styleabletoast.StyleableToast;
 
 public class Login extends AppCompatActivity {
